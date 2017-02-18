@@ -292,7 +292,7 @@ class module_psilo extends EfrontModule {
     
     public function doArticles(){
         $smarty = $this ->getSmartyVar();
-        $data = '<h2 style="text-align: center" class="title"> <i class="fa fa-list-ul"></i> Articles </h2>
+        $data = '<h2 style="text-align: center" class="title"> <i class="fa fa-paperclip"></i> Articles </h2>
         <hr/>
         <table class="table">
             <thead>
@@ -320,11 +320,10 @@ class module_psilo extends EfrontModule {
         <table class="table">
             <thead>
                 <tr>
-                    <th>Name</th>
-                    <th>Hits</th>
-                    <th>Visible</th>
-                    <th>Subcats</th>
-                    <th>Articles</th>
+                    <th>User</th>
+                    <th>Comment</th>
+                    <th>Article Name</th>
+                    <th>Date and time</th>
                     <th>Actions</th>
                 </tr>
             </thead>
