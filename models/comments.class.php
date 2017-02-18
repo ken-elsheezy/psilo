@@ -9,6 +9,6 @@ if (str_replace(DIRECTORY_SEPARATOR, "/", __FILE__) == $_SERVER['SCRIPT_FILENAME
  * Class defining the new module
  * The name must match the one provided in the module.xml file
  */
-class psilo_article {
+class psilo_comment {
     
 }
