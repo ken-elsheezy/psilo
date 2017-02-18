@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<module>
+	<title>Module PSilo</title>
+	<author>Oyebanji Adetunji S.</author>
+	<date>2016 02 15</date>
+	<version>0.9</version>
+	<description>A New Gamification Module</description>
+	<className>module_psilo</className>
+	<requires>5.5.12</requires>
+</module>
