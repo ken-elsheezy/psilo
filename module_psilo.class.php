@@ -84,11 +84,11 @@ class module_psilo extends EfrontModule {
     }
     
     public function getModuleCSS() {
-        return $this->moduleBaseLink .'module_psilo.css';
+        return $this->moduleBaseDir .'module_psilo.css';
     }
     
     public function getModuleJS() {
-        return $this->moduleBaseLink .'module_psilo.js';
+        return $this->moduleBaseDir .'module_psilo.js';
     }
     
     /**
