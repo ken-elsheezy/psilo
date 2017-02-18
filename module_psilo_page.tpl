@@ -41,7 +41,7 @@
                     <span class="pull-right">
                         <a href="{$T_MODULE_BASEURL}&page=files&op=add" title="Add a new entry">
                             <i class="fa fa-plus-circle"></i>
-                        </a> &nbsp;
+                        </a>
                     </span>  
             </li>
             <li class="list-group-item {if $smarty.get.page == 'ratings'}active{/if}">
