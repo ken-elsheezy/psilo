@@ -6,11 +6,26 @@
         <h2 class="title"> <i class="fa fa-gears"></i> Actions </h2>
         <hr/>
         <ul class="list-group">
-            <li class="list-group-item"><i class="fa fa-list-alt"></i> Categories</li>
-            <li class="list-group-item"><i class="fa fa-paperclip"></i> Articles</li>
-            <li class="list-group-item"><i class="fa fa-comments"></i> Comments</li>
-            <li class="list-group-item"><i class="fa fa-file"></i> Files</li>
-            <li class="list-group-item"><i class="fa fa-star-half-o text-danger"></i> Ratings</li>
+            <li class="list-group-item {if $smarty.get.page == 'categories'}active{/if}">
+                <i class="fa fa-list-alt"></i> 
+                <a href="{$T_MODULE_BASEURL}&page=categories">Categories</a>
+            </li>
+            <li class="list-group-item {if $smarty.get.page == 'articles'}active{/if}">
+                <i class="fa fa-paperclip"></i> 
+                <a href="{$T_MODULE_BASEURL}&page=articles">Articles</a>
+            </li>
+            <li class="list-group-item {if $smarty.get.page == 'comments'}active{/if}">
+                <i class="fa fa-comments"></i> 
+                <a href="{$T_MODULE_BASEURL}&page=comments">Comments</a>
+            </li>
+            <li class="list-group-item {if $smarty.get.page == 'files'}active{/if}" >
+                <i class="fa fa-file"></i> 
+                <a href="{$T_MODULE_BASEURL}&page=files">Files</a>
+            </li>
+            <li class="list-group-item {if $smarty.get.page == 'ratings'}active{/if}">
+                <i class="fa fa-star-half-o text-danger"></i> 
+                <a href="{$T_MODULE_BASEURL}&page=ratings">Ratings</a>
+            </li>
         </ul>
     </div>
 </div>
